@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -20,35 +24,7 @@ body{
     border-radius: 15px;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.header img{
-    width: 7rem;
-    height: 7rem;
-    border-radius: 50%;
-    margin: 0 1rem 1rem 1rem;
-}
-
-.header h1{
-    font-size: 1.5rem;
-    color: #fff;
-    text-align: center;
-    margin: 0;
-}
-
-.header div {
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
-    color: #fff;
-    text-align: left;
-    margin: 0;
-}
 
 h2{
     font-size: 1rem;
@@ -57,53 +33,7 @@ h2{
     margin: 0;
 }
 
-.acordeon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
 
-.acordeon .trigger {
-    display: flex;
-    flex-direction: row;
-    background-color: transparent;
-    color: white;
-    cursor: pointer;
-    padding: 1rem 2rem;
-    width: 20rem;
-    justify-content: space-between;
-    font-size: 1.5rem;
-    font-weight: 700;
-    border: 1px solid #fff;
-    border-radius: 15px;
-}
-
-.acordeon .trigger:hover {
-    box-shadow: #fff 0px 0px 10px;
-}
-
-.acordeon .trigger .
-
-.acordeon .trigger::after {
-    content: '';
-    display: inline-block;
-    width: 15rem;
-    height: 15rem;
-    background-color: #7f39cb;
-    border-radius: 15px;
-
-}
-
-.acordeon .submenu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    border-radius: 15px;
-}
 
 footer {
     position: fixed;
