@@ -64,10 +64,6 @@ footer span a {
     .container {
         padding: 5rem 3rem;
     }
-    .presentation {
-        display: flex;
-        flex-direction: row;
-    }
     footer {
         font-size: 1.1rem;
     }
