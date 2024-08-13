@@ -51,6 +51,12 @@ h2{
     background-color: transparent;
     color: #fff;
     border-radius: 10px;
+    min-width: 10rem;
+}
+
+.container a {
+    color: #fff;
+    text-decoration: none;
 }
 
 footer {
