@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 30rem;
 }
 
 .acordeon .trigger {
@@ -13,6 +13,7 @@
     color: white;
     cursor: pointer;
     padding: 1rem 2rem;
+    margin: 0.5rem;
     width: 20rem;
     justify-content: space-between;
     font-size: 1.5rem;
@@ -25,23 +26,52 @@
     box-shadow: #fff 0px 0px 10px;
 }
 
-.acordeon .trigger .
-
-.acordeon .trigger::after {
-    content: '';
-    display: inline-block;
-    width: 15rem;
-    height: 15rem;
-    background-color: #7f39cb;
-    border-radius: 15px;
-
-}
-
-.acordeon .submenu {
+.acordeon .content {
     display: none;
-    flex-direction: column;
+    padding: 1rem 2rem;
     width: 100%;
-    background-color: #333;
+    background-color: #904cd8;
+    opacity: 0.9;
     color: white;
     border-radius: 15px;
+    padding: 1rem 2rem;
+    width: 90%;
+    max-height: 200px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    margin: 0.2rem;
+}
+.content::-webkit-scrollbar {
+    width: 8px;
+}
+.content::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #904cd8; 
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+    background: #904cd8; 
+}
+
+.acordeon .content .submenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 1rem;
+}
+
+.acordeon .content .submenu:hover {
+    background-color: #823fcb;
+    padding: 0.1rem;
+}
+
+.acordeon .content .itens {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
 }

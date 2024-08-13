@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-image: linear-gradient(to left top, #7f39cb, #004ebc, #004c93, #004061, #003037, #00292f, #012327, #001d20, #001f30, #001f45, #001c55, #0c0c59);
     /*
     background-image: linear-gradient(to left top, #151817, #223530, #2d544c, #35766c, #3a998f, #279b9d, #0f9dac, #009eba, #007bab, #005898, #00347d, #0c0c59);
@@ -22,9 +22,16 @@ body{
     padding: 3rem 1rem;
     border: 1px solid #fff;
     border-radius: 15px;
+    max-height: 60%;
 }
 
+ul {
+    list-style: none;
+}
 
+li {
+    margin: 0.3rem;
+}
 
 h2{
     font-size: 1rem;
@@ -33,7 +40,18 @@ h2{
     margin: 0;
 }
 
+.container .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.container .links button {
+    margin: 0.2rem;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10px;
+}
 
 footer {
     position: fixed;
@@ -47,7 +65,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-weight: 400;
 }
 
 footer span i {
@@ -64,17 +82,11 @@ footer span a {
     .container {
         padding: 5rem 3rem;
     }
-    footer {
-        font-size: 1.1rem;
-    }
     
 }
 
 @media screen and (min-width: 760px){
     .container {
         padding: 5rem;
-    }
-    footer {
-        font-size: 1.2rem;
     }
 }
