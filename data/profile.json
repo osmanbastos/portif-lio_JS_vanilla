@@ -1,0 +1,123 @@
+{
+    "name": "Osman B S Cruz",
+    "photo": "https://avatars.githubusercontent.com/u/40010049?v=4",
+    "role": "Software Developer",
+    "location": "Brazil",
+    "email": "osmanbastos@hotmail.com",
+    "skills": {
+        "hardSkills": [
+            {
+                "name": "Nodejs",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+            },
+            {
+                "name": "Java",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+            },
+            {
+                "name": "Angular",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+            },
+            {
+                "name": "React",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+            },
+            {
+                "name": "Mongodb",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+            },
+            {
+                "name": "Postgresql",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+            }
+        ],
+            "softSkills": [
+                "Comunicação",
+                "Empatia",
+                "Liderança",
+                "Trabalho em equipe",
+                "Flexibilidade",
+                "Organização"
+            ]
+    },
+    "languages": [
+        "Português BR",
+        "Inglês (intermediário)",
+        "Espanhol (iniciante)",
+        "Françês (iniciante)"
+    ],
+    "formation": [
+        {
+            "name": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+            "institution": "Estacio de Sá"
+        },
+        {
+            "name": "Gerenciamento de Riscos e Fundamentos da Gestão de Projetos",
+            "institution": "Udemy"
+        },
+        {
+            "name": "AWS Cloud Practitioner",
+            "institution": "Estacio de Sá / KA Solution"
+        },
+        {
+            "name": "DevOps & Agile Culture",
+            "institution": "FIAP"
+        },
+        {
+            "name": "User Experience Design",
+            "institution": "FIAP"
+        },
+        {
+            "name": "Formação React Developer",
+            "institution": "Digital Innovation One"
+        },
+        {
+            "name": "Formação JvaScript Developer",
+            "institution": "Digital Innovation One"
+        },
+        {
+            "name": "Formação HTML Developer",
+            "institution": "Digital Innovation One"
+        },
+        {
+            "name": "Técnico em Eletrônica",
+            "institution": "Fundação Bahiana de Engenharia"
+        },
+        {
+            "name": "Manutenção de Microcomputadores",
+            "institution": "Técnica Informática"
+        }
+    ],
+    "professionalExperience": [
+        {
+            "name": "Supervisor Técnico / MC Hospitalar",
+            "period": "2014 - 2024",
+            "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+        },
+        {
+            "name": "Técnico de Suporte / AVANSYS (Terceirizado na SEC-BA)",
+            "period": "2011 - 2014",
+            "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+        },
+        {
+            "name": "Consultor de TI / Ponto Certo Digital",
+            "period": "2016 - 2021",
+            "description": "Instalação e configuração da rede e sistema com servidor Windows Server 2008. Configuração dos workstations."
+        },
+        {
+            "name": "Manutenção de computadores / Login Informática",
+            "period": "2010 - 2011",
+            "description": "Atendimento ao cliente para soluções em manutenção de microcomputadores, notebooks e periféricos, com configuração de softwares e sistemas operacionais Windows e Linux."
+        },
+        {
+            "name": "Técnico em TI / Texcom",
+            "period": "2008 - 2010",
+            "description": "Suporte remoto e local para solução de ocorrências de rede, software e hardware em servidores, estações de trabalho, configurando sistemas ERP, em conjunto com equipe de desenvolvimento para melhor atender aos clientes."
+        },
+        {
+            "name": "Estágio de TI / NETGATE",
+            "period": "2006 - 2008",
+            "description": "Reparo de fontes ATX, reparo de placas (placa-mãe, placa de vídeo e memória), auditoria interna para ISO9001, atendimento ao cliente e reparo de computadores."
+        }
+    ]
+}
