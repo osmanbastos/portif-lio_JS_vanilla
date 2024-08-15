@@ -37,13 +37,13 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
-function updatePortfolio(profileData) {
-    const portfolio = document.getElementById('profile.portfolio')
-    portfolio.innerHTML = profileData.portfolio.map(project => {
+function updateEducation(profileData) {
+    const education = document.getElementById('profile.education')
+    education.innerHTML = profileData.education.map(course => {
         return `
             <li>
-                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
-                <a href="${project.url}" target="_blank">${project.url}</a>
+                <h3 class="title"> ${course.name}</h3>
+                <p class="institution">${course.institution}</p>
             </li>
         `
     }).join('')
@@ -68,6 +68,6 @@ function updateProfessionalExperience(profileData) {
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
-    updatePortfolio(profileData)
+    updateEducation(profileData)
     updateProfessionalExperience(profileData)
 })()
